@@ -1,0 +1,86 @@
+.container {
+  position: relative;
+}
+.bottom {
+  width: 250px;
+  height: 10px;
+  background: black;
+}
+.middle {
+  height: 400px;
+  width: 10px;
+  background: black;
+  margin-left: 120px;
+}
+.right {
+  height: 10px;
+  width: 200px;
+  background: black;
+  margin-left: 120px;
+}
+.down {
+  height: 50px;
+  width: 10px;
+  background: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.head {
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+  border: 10px solid black;
+  position: absolute;
+  top: 50px;
+  right: -32px;
+}
+.body {
+  height: 100px;
+  width: 10px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 120px;
+}
+.right_arm {
+  height: 10px;
+  width: 100px;
+  background: black;
+  position: absolute;
+  right: -100px;
+  top: 150px;
+  rotate: -30deg;
+  transform-origin: left bottom;
+}
+.left_arm {
+  height: 10px;
+  width: 100px;
+  background: black;
+  position: absolute;
+  right: 10px;
+  top: 150px;
+  rotate: 30deg;
+  transform-origin: right bottom;
+}
+.right_leg {
+  height: 10px;
+  width: 100px;
+  background: black;
+  position: absolute;
+  right: -90px;
+  top: 210px;
+  rotate: 60deg;
+  transform-origin: left bottom;
+}
+.left_leg {
+  height: 10px;
+  width: 100px;
+  background: black;
+  position: absolute;
+  right: 0px;
+  top: 210px;
+  rotate: -60deg;
+  transform-origin: right bottom;
+}
